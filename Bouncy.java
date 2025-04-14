@@ -17,7 +17,7 @@ public class Bouncy
                 inc=false;
                 break;
             }
-            p=d;
+            p=d;//swap
             t/=10;
         }
         t=a;
@@ -33,10 +33,10 @@ public class Bouncy
             p=d;
             t/=10;
         }
-        if(inc==false && dec==false)
+        if(inc==false && dec==false)//Digits are both decresing and increasing(or niether increasing nor decreasing completely)
         System.out.println("Bouncy");
         else
-        System.out.println("Not b");
+        System.out.println("Not Bouncy");
     }
 }
 
